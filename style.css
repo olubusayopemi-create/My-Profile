@@ -1,0 +1,302 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #764b71;
+  color: #764b71;
+  flex-direction: column;
+}
+
+
+#main-header {
+  background: #201d23;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+
+.student-id h1 a {
+  text-decoration: none;
+  color: #724877;
+  font-size: 2rem;
+  font-weight: bold;
+  
+}
+
+.student-id h2 {
+  color: #724877;
+  font-size: 1.5rem;
+  margin-top: 0.5rem;
+}
+
+#main-header nav {
+  background-color:#713e78;           
+  padding: 0.5rem 1rem;                
+  border-radius: 8px;                  
+  box-shadow: #201d23;
+}
+
+#main-header nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+
+#main-header nav a {
+  color: #0d0c0c;                      
+  text-decoration: none;
+  font-weight: 600;
+}
+
+#main-header nav a:hover {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+
+#main-header h1 a:hover {
+  color: white; 
+}
+
+main {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 0 1rem;
+}
+
+.profile {
+  font-size: 1.75rem;
+  margin-bottom: 1rem;
+  color:  black
+}
+
+.main-article {
+  background: #9075ab;
+  padding: 1.5rem;
+  border-radius: 10px;
+  display: flex;
+  gap: 1.5rem;
+  align-items: flex-start;
+}
+
+article img {
+  width: 140px;
+  height: 140px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 1px solid #141414;
+}
+
+ .About-me {
+  color: #141414;
+}
+
+
+.main-footer {
+  background:#201d23;
+  padding: 1rem 2rem;
+  text-align: center;
+  border-top: 1px solid #ddd;
+  margin-top: auto;
+}
+
+ .footer-id {
+  color: #724877; 
+  font-size: 0.9rem;
+}
+
+.main-footer a img {
+  margin-top: 0.5rem;
+  width: 100px;
+}
+
+.fact-container {
+  display: flex;             
+  gap: 2rem;                 
+  max-width: 1000px;
+  margin: 2rem auto;         
+  padding: 2rem;
+}
+
+.fact-items {
+  flex: 1;                   
+  background: #9075ab;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 1rem;
+}
+
+.fact-items h3 {
+  margin-top: 0;
+  font-size: 1.1rem;
+  color: #141414;           
+}
+
+.fact-items ul,
+.fact-items ol {
+  margin: 1rem; 
+}
+
+.fact-items li {
+  margin-bottom: 0.4rem;
+  line-height: 1.4;
+  color: #0d0c0c;
+}
+
+.fact-items a {
+  color:#0d0c0c;
+  text-decoration: none;
+}
+.fact-items a:hover {
+  text-decoration: none;
+  color: white
+}
+
+.main-quote {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 3rem;
+  text-align: center;
+  
+}
+
+
+.quote-heading {
+  font-size: 2rem;
+  color:  black;    
+  margin-bottom: 1.5rem;
+}
+
+.quote-container {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  background: #9075ab;
+  border: 1px solid black;
+  border-radius: 8px;
+  padding: 5rem;
+}
+
+.quote-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  border: 2px solid black
+}
+
+.quote-text {
+  font-size: 1.1rem;
+  font-style: italic;
+  color:black;
+  line-height: 1.5rem;
+  text-align: left;
+}
+
+.quote-author {
+  font-size: 0.9rem;
+  color: black;
+  white-space: nowrap;
+}
+
+.resume-container {
+  max-width: 850px;
+  margin: 40px auto;            
+  background: #9075ab;
+  padding: 20px;
+  border-radius: 6px;
+}
+
+.resume-header {
+  background: black;            
+  color:#764b71;
+  text-align: center;
+  padding: 25px 10px;
+  border-radius: 6px;
+  margin-bottom: 20px;
+}
+
+.resume-header h1 {
+  font-size: 2rem;
+  letter-spacing: 1px;
+  margin-bottom: 4px;
+}
+
+.resume-header p {
+  font-size: 0.95rem;
+}
+
+.resume-content {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 50px;
+  align-items: flex-start;
+}
+
+.details h2 {
+  font-size: 1.2rem;
+  margin: 8px;
+  color: black;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+  
+}
+
+.details ul {
+  margin: 10px 0 20px 18px;
+  line-height: 1.6;
+}
+
+.main-resume h2 {
+  font-size: 1.2rem;
+  color: black;
+  margin: 8px ;
+  border-bottom: 2px solid black;
+  padding-bottom: 4px;
+}
+
+.main-resume .item {
+  margin-bottom: 18px;
+}
+
+.main-resume h3 {
+  font-size: 1.05rem;
+  color: #222;
+  font-weight: bold;
+}
+
+.main-resume .date {
+  float: right;
+  font-size: 0.85rem;
+  color: black
+}
+
+.main-resume p {
+  margin: 5px 0 10px;
+  font-size: 0.95rem;
+  color: black
+}
+
+.main-resume ul {
+  margin-left: 20px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+.list-items {
+  color: #000;
+}
+
+
+
+
